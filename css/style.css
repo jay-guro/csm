@@ -35,7 +35,10 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   height: 10%;
-  width: 100%;
+  max-width: 100%;
+  min-width: 1263px;
+  width: auto !important;
+  width: 1263px;
 }
 
 .navbar-links a {
