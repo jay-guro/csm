@@ -16,9 +16,9 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-width: 1263px;
+  /* min-width: 1263px;
   width: auto !important;
-  width: 1263px;
+  width: 1263px; */
 }
 
 #navbar {
@@ -85,4 +85,27 @@ iframe {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+}
+
+@media only screen and (max-width: 1263px) {
+  .navbar-links a {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .bg {
+    background-image: url("../img/main.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .main {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 434px) {
+  .title-center {
+    font-size: 25px;
+  }
 }
