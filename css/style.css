@@ -1,0 +1,87 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body,
+html {
+  backgroud-color: #333;
+  height: 100%;
+  margin: 0px;
+}
+
+body {
+  min-width: 1263px;
+  width: auto !important;
+  width: 1263px;
+  background-image: url("../img/bg-track.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background-image: url("../img/bg-header.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 10%;
+  width: 100%;
+}
+
+.navbar-links a {
+  font-family: "Dosis", sans-serif;
+  padding: 20px 20px 0px 20px;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-bottom: 1px transparent solid;
+}
+
+.title-center {
+  font-family: "Sigmar One", cursive;
+  font-size: 40px;
+  padding: 40px;
+  color: #fff;
+}
+
+.navbar-links a:hover {
+  border-color: #fff;
+  padding-bottom: 10px;
+}
+
+.bg {
+  background-image: url("../img/hero.jpg");
+  height: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main {
+  background-image: url("../img/main.png");
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+iframe {
+  width: 70%;
+  margin-top: 4%;
+  height: 30%;
+}
+
+.track {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
