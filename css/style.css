@@ -8,6 +8,9 @@ html {
   backgroud-color: #333;
   height: 100%;
   margin: 0px;
+  min-width: 1263px;
+  width: auto !important;
+  width: 1263px;
 }
 
 body {
