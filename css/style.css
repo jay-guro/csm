@@ -1,36 +1,146 @@
-* {
-  margin: 0px;
-  padding: 0px;
-}
-
-html,
-body {
-  background-image: url("../img/bg.jpg");
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 iframe {
   width: 60%;
   margin-top: 5rem;
 }
 
-h1 {
-  font-family: "Sigmar One", cursive;
-  font-size: 4vw;
-  margin-top: 1rem;
-  color: #fff;
-}
-
-#navbar {
-  display: flex;
-  justify-content: center;
-  height: 10%;
-}
-
 .track {
   display: flex;
   justify-content: center;
+}
+
+.button.is-instagram {
+    color: #fff;
+    background-color: #b900b4;
+    border-color: transparent
+}
+
+.button.is-twitter {
+    color: #fff;
+    background-color: #2795e9;
+    border-color: transparent
+}
+
+.button.is-soundcloud {
+    color: #fff;
+    background-color: #f50;
+    border-color: transparent
+}
+
+.button.is-facebook {
+    color: #fff;
+    background-color: #0e70f0;
+    border-color: transparent
+}
+
+.button.is-linkedin {
+    color: #fff;
+    background-color: #005983;
+    border-color: transparent
+}
+
+.button.is-telegram {
+    color: #fff;
+    background-color: #08c;
+    border-color: transparent
+}
+
+.button.is-whatsapp {
+    color: #fff;
+    background-color: #25d366;
+    border-color: transparent
+}
+
+.button.is-snapchat {
+    color: #fff;
+    background-color: #f0f000;
+    border-color: transparent
+}
+
+.button.is-facebook-messenger {
+    color: #fff;
+    background-color: #0084ff;
+    border-color: transparent
+}
+
+.button.is-mail {
+    color: #fff;
+    background-color: #0100af;
+    border-color: transparent
+}
+
+.button.is-instagram:hover {
+    color: #fff;
+    background-color: #ed4657;
+    border-color: transparent
+}
+
+.button.is-twitter:hover {
+    color: #fff;
+    background-color: #119cf1;
+    border-color: transparent
+}
+
+.button.is-soundcloud:hover {
+    color: #fff;
+    background-color: #c40;
+    border-color: transparent
+}
+
+.button.is-facebook:hover {
+    color: #fff;
+    background-color: #2d4373;
+    border-color: transparent
+}
+
+.button.is-linkedin:hover {
+    color: #fff;
+    background-color: #0960b6;
+    border-color: transparent
+}
+
+.button.is-telegram:hover {
+    color: #fff;
+    background-color: #05c;
+    border-color: transparent
+}
+
+.button.is-whatsapp:hover {
+    color: #fff;
+    background-color: #25a000;
+    border-color: transparent
+}
+
+.button.is-snapchat:hover {
+    color: #fff;
+    background-color: #f9d000;
+    border-color: transparent
+}
+
+.button.is-facebook-messenger:hover {
+    color: #fff;
+    background-color: #0054ff;
+    border-color: transparent
+}
+
+.button.is-mail:hover {
+    color: #fff;
+    background-color: #003aaa;
+    border-color: transparent
+}
+
+.button {
+    animation-duration: 1s;
+    animation-name: slideUp;
+    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1.5)
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(1rem)
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0)
+    }
 }
