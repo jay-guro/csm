@@ -1,11 +1,11 @@
 iframe {
-  width: 60%;
-  margin-top: 5rem;
+  width: 80%;
 }
 
-.track {
-  display: flex;
-  justify-content: center;
+@media (max-width: 768px) {
+  iframe {
+  width: 100%;
+}
 }
 
 .button.is-instagram {
@@ -62,12 +62,6 @@ iframe {
     border-color: transparent
 }
 
-.button.is-mail {
-    color: #fff;
-    background-color: #0100af;
-    border-color: transparent
-}
-
 .button.is-instagram:hover {
     color: #fff;
     background-color: #ed4657;
@@ -77,12 +71,6 @@ iframe {
 .button.is-twitter:hover {
     color: #fff;
     background-color: #119cf1;
-    border-color: transparent
-}
-
-.button.is-soundcloud:hover {
-    color: #fff;
-    background-color: #c40;
     border-color: transparent
 }
 
