@@ -3,9 +3,12 @@ iframe {
 }
 
 @media (max-width: 768px) {
-  iframe {
-  width: 100%;
-}
+    iframe {
+    width: 100%;
+    }
+    .logo-title {
+        font-size: 1rem;
+    }
 }
 
 .button.is-instagram {
