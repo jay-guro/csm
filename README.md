@@ -1,4 +1,2 @@
-# Celestial Shaman Music
-
-- Add Instagram Button
-- Add YouTube Button
+# celestialshaman.music
+Celestial Shaman Music
