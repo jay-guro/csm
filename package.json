@@ -1,22 +1,23 @@
 {
-  "name": "celestialshamanmusic.live",
+  "name": "celestialshaman.live",
   "version": "1.0.0",
-  "description": "Celestial Shaman Music",
+  "description": "CELESTIAL SHAMAN MUSIC",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jay-guro/celestialshamanmusic.live.git"
+    "url": "git+https://github.com/jay-guro/celestialshaman.live.git"
   },
   "author": "Jason Guro",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jay-guro/celestialshamanmusic.live/issues"
+    "url": "https://github.com/jay-guro/celestialshaman.live/issues"
   },
-  "homepage": "https://github.com/jay-guro/celestialshamanmusic.live#readme",
+  "homepage": "https://github.com/jay-guro/celestialshaman.live#readme",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
     "bulma": "^0.9.2"
   }
 }
