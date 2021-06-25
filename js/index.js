@@ -1,3 +1,5 @@
+'use strict';
+// Tabs
 const tabs = document.querySelectorAll(".tabs li");
 const tabContentBoxes = document.querySelectorAll("#tab-content> div");
 tabs.forEach((tab) => {
@@ -15,6 +17,7 @@ tabs.forEach((tab) => {
     });
 });
 
+// Burger
 document.addEventListener('DOMContentLoaded', () => {
   // Get all "navbar-burger" elements
   const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
@@ -34,6 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 });
 
+// Loader
 $(document).ready(function () {
          setTimeout(function () {
             $('body').addClass('loaded');
