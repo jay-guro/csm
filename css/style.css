@@ -9,287 +9,287 @@ iframe {
 CSS
 ------------------------------------- */
 .logo-title {
-        font-size: 2rem;
-    }
+  font-size: 2rem;
+}
 
 /* ------------------------------------
 Media Queries
 ------------------------------------- */
 @media (max-width: 768px) {
-    iframe {
+  iframe {
     width: 100%;
-    }
-    .logo-title {
-        font-size: 1rem;
-    }
+  }
+  .logo-title {
+    font-size: 1rem;
+  }
 }
 
 /* ------------------------------------
 Buttons
 ------------------------------------- */
 .button.is-instagram {
-    color: #fff;
-    background-color: #b900b4;
-    border-color: transparent
+  color: #fff;
+  background-color: #b900b4;
+  border-color: transparent;
 }
 
 .button.is-twitter {
-    color: #fff;
-    background-color: #2795e9;
-    border-color: transparent
+  color: #fff;
+  background-color: #2795e9;
+  border-color: transparent;
 }
 
 .button.is-soundcloud {
-    color: #fff;
-    background-color: #f50;
-    border-color: transparent
+  color: #fff;
+  background-color: #f50;
+  border-color: transparent;
 }
 
 .button.is-facebook {
-    color: #fff;
-    background-color: #0e70f0;
-    border-color: transparent
+  color: #fff;
+  background-color: #0e70f0;
+  border-color: transparent;
 }
 
 .button.is-linkedin {
-    color: #fff;
-    background-color: #005983;
-    border-color: transparent
+  color: #fff;
+  background-color: #005983;
+  border-color: transparent;
 }
 
 .button.is-telegram {
-    color: #fff;
-    background-color: #08c;
-    border-color: transparent
+  color: #fff;
+  background-color: #08c;
+  border-color: transparent;
 }
 
 .button.is-whatsapp {
-    color: #fff;
-    background-color: #25d366;
-    border-color: transparent
+  color: #fff;
+  background-color: #25d366;
+  border-color: transparent;
 }
 
 .button.is-snapchat {
-    color: #fff;
-    background-color: #f0f000;
-    border-color: transparent
+  color: #fff;
+  background-color: #f0f000;
+  border-color: transparent;
 }
 
 .button.is-facebook-messenger {
-    color: #fff;
-    background-color: #0084ff;
-    border-color: transparent
+  color: #fff;
+  background-color: #0084ff;
+  border-color: transparent;
 }
 
 .button.is-instagram:hover {
-    color: #fff;
-    background-color: #ed4657;
-    border-color: transparent
+  color: #fff;
+  background-color: #ed4657;
+  border-color: transparent;
 }
 
 .button.is-twitter:hover {
-    color: #fff;
-    background-color: #119cf1;
-    border-color: transparent
+  color: #fff;
+  background-color: #119cf1;
+  border-color: transparent;
 }
 
 .button.is-facebook:hover {
-    color: #fff;
-    background-color: #2d4373;
-    border-color: transparent
+  color: #fff;
+  background-color: #2d4373;
+  border-color: transparent;
 }
 
 .button.is-linkedin:hover {
-    color: #fff;
-    background-color: #0960b6;
-    border-color: transparent
+  color: #fff;
+  background-color: #0960b6;
+  border-color: transparent;
 }
 
 .button.is-telegram:hover {
-    color: #fff;
-    background-color: #05c;
-    border-color: transparent
+  color: #fff;
+  background-color: #05c;
+  border-color: transparent;
 }
 
 .button.is-whatsapp:hover {
-    color: #fff;
-    background-color: #25a000;
-    border-color: transparent
+  color: #fff;
+  background-color: #25a000;
+  border-color: transparent;
 }
 
 .button.is-snapchat:hover {
-    color: #fff;
-    background-color: #f9d000;
-    border-color: transparent
+  color: #fff;
+  background-color: #f9d000;
+  border-color: transparent;
 }
 
 .button.is-facebook-messenger:hover {
-    color: #fff;
-    background-color: #0054ff;
-    border-color: transparent
+  color: #fff;
+  background-color: #0054ff;
+  border-color: transparent;
 }
 
 .button.is-mail:hover {
-    color: #fff;
-    background-color: #003aaa;
-    border-color: transparent
+  color: #fff;
+  background-color: #003aaa;
+  border-color: transparent;
 }
 
 .button {
-    animation-duration: 1s;
-    animation-name: slideUp;
-    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1.5)
+  animation-duration: 1s;
+  animation-name: slideUp;
+  animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1.5);
 }
 
 @keyframes slideUp {
-    from {
-        opacity: 0;
-        transform: translateY(1rem)
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0)
-    }
+  from {
+    opacity: 0;
+    transform: translateY(1rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 /* ------------------------------------
 Loader
 ------------------------------------- */
 #loader-wrapper {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
 }
 
 #loader {
-    display: block;
-    position: relative;
-    left: 50%;
-    top: 50%;
-    width: 150px;
-    height: 150px;
-    margin: -75px 0 0 -75px;
-    border-radius: 50%;
-    border: 3px solid transparent;
-    border-top-color: #f50;
-    -webkit-animation: spin 2s linear infinite;
-    animation: spin 2s linear infinite;
+  display: block;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  border-top-color: #f50;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
 }
 
 #loader:before {
-    content: "";
-    position: absolute;
-    top: 5px;
-    left: 5px;
-    right: 5px;
-    bottom: 5px;
-    border-radius: 50%;
-    border: 3px solid transparent;
-    border-top-color: #f50;
-    -webkit-animation: spin 3s linear infinite;
-    animation: spin 3s linear infinite;
+  content: '';
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  border-top-color: #f50;
+  -webkit-animation: spin 3s linear infinite;
+  animation: spin 3s linear infinite;
 }
 
 #loader:after {
-    content: "";
-    position: absolute;
-    top: 15px;
-    left: 15px;
-    right: 15px;
-    bottom: 15px;
-    border-radius: 50%;
-    border: 3px solid transparent;
-    border-top-color: #f50;
-    -webkit-animation: spin 1.5s linear infinite;
-    animation: spin 1.5s linear infinite;
+  content: '';
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  right: 15px;
+  bottom: 15px;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  border-top-color: #f50;
+  -webkit-animation: spin 1.5s linear infinite;
+  animation: spin 1.5s linear infinite;
 }
 
 @-webkit-keyframes spin {
-    0% {
-        -webkit-transform: rotate(0deg);
-        -ms-transform: rotate(0deg);
-        transform: rotate(0deg);
-    }
-    100% {
-        -webkit-transform: rotate(360deg);
-        -ms-transform: rotate(360deg);
-        transform: rotate(360deg);
-    }
+  0% {
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
 }
 
 @keyframes spin {
-    0% {
-        -webkit-transform: rotate(0deg);
-        -ms-transform: rotate(0deg);
-        transform: rotate(0deg);
-    }
-    100% {
-        -webkit-transform: rotate(360deg);
-        -ms-transform: rotate(360deg);
-        transform: rotate(360deg);
-    }
+  0% {
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
 }
 
 #loader-wrapper .loader-section {
-    position: fixed;
-    top: 0;
-    width: 51%;
-    height: 100%;
-    background: #fff;
-    z-index: 1000;
+  position: fixed;
+  top: 0;
+  width: 51%;
+  height: 100%;
+  background: #fff;
+  z-index: 1000;
 }
 
 #loader-wrapper .loader-section.section-left {
-    left: 0;
+  left: 0;
 }
 
 #loader-wrapper .loader-section.section-right {
-    right: 0;
+  right: 0;
 }
 
 #loader {
-    z-index: 1001;
+  z-index: 1001;
 }
 
 .loaded #loader-wrapper .loader-section.section-left {
-    -webkit-transform: translateX(-100%);
-    -ms-transform: translateX(-100%);
-    transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  transform: translateX(-100%);
 }
 
 .loaded #loader-wrapper .loader-section.section-right {
-    -webkit-transform: translateX(100%);
-    -ms-transform: translateX(100%);
-    transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  transform: translateX(100%);
 }
 
 .loaded #loader {
-    opacity: 0;
+  opacity: 0;
 }
 
 .loaded #loader-wrapper {
-    visibility: hidden;
+  visibility: hidden;
 }
 
 .loaded #loader {
-    opacity: 0;
-    -webkit-transition: all 0.3s ease-out;
-    transition: all 0.3s ease-out;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
 }
 
 .loaded #loader-wrapper {
-    -webkit-transform: translateY(-100%);
-    -ms-transform: translateY(-100%);
-    transform: translateY(-100%);
-    -webkit-transition: all 0.3s 1s ease-out;
-    transition: all 0.3s 1s ease-out;
+  -webkit-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  transform: translateY(-100%);
+  -webkit-transition: all 0.3s 1s ease-out;
+  transition: all 0.3s 1s ease-out;
 }
 
 .loaded #loader-wrapper .loader-section.section-right,
 .loaded #loader-wrapper .loader-section.section-left {
-    -webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
-    transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+  -webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
